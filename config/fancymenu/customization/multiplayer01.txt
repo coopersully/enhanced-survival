@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -305
+  width = 154
+  actionid = b6c003ff-855a-4dcb-ae0d-373f0065bf201653287617493
+  action = addbutton
+  y = 10
+  label = Halara's Server
+  value = test.halara.net
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 151
+  width = 154
+  actionid = 1c43f6e5-932a-4870-a5de-5e9b53d03a6d1653287789295
+  action = addbutton
+  y = 10
+  label = Halara's Discord
+  value = https://discord.gg/Q7yjtqGXd2
+  height = 20
+}
+

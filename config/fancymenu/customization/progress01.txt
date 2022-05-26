@@ -1,0 +1,41 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_434
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = halara/pre-earth.png
+  orientation = mid-centered
+  x = -50
+  width = 100
+  action = addtexture
+  actionid = 61a9ccd5-1085-4d94-a022-2fe069f0f2411653436461729
+  y = -38
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #00A36C
+  shadow = true
+  splashfilepath = halara\tips.txt
+  rotation = 0.0
+  x = -40
+  actionid = 69ecc3b5-9c59-4587-918f-6b715aee1bed1653436608960
+  action = addsplash
+  y = 67
+  scale = 1.5
+  refresh = false
+  bouncing = false
+}
+

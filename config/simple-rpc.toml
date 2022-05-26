@@ -1,0 +1,236 @@
+
+#General Config Section
+[general]
+	#The Application ID of the Discord App to use
+	clientID = 979285859889184768
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 13
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Currently loading  game..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "In the Main Menu"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Browsing Multiplayer Servers"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Browsing Multiplayer Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[realms_list.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Joining a World"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Playing Singleplayer"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Playing Multiplayer"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%mods% total mods installed"
+	#The second line of text under the app name
+	state = "Playing Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	[[realms.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "https://i.imgur.com/CoOZEYV.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A modpack for Minecraft %mcver%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "%playerhead%"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% total mods installed"
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Download Modpack"
+		url = "https://www.curseforge.com/minecraft/modpacks/halara-the-modpack/"
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "%playerhead%"
+		smallImageText = "%mods% total mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "%playerhead%"
+		smallImageText = "%mods% total mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "%playerhead%"
+		smallImageText = "%mods% total mods installed"
+

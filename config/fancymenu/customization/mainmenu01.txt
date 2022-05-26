@@ -1,0 +1,127 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = halara/title-background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -109
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  width = 109
+  action = resizebutton
+  height = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = setbuttonlabel
+  value = Copyright Mojang AB.
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = halara\title.png
+  label = 
+  vr:showif:singleplayer = false
+  loopbackgroundanimations = true
+  x = -106
+  width = 213
+  actionid = 2c802c96-c186-4603-9150-d551da8a7e531653286928932
+  action = addbutton
+  y = 15
+  backgroundnormal = halara\title.png
+  value = test.halara.net
+  height = 80
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  actionid = fe9b1daa-5145-4140-b6eb-29a3dcb543b21653283554420
+  action = addtext
+  y = -19
+  scale = 1.0
+  alignment = left
+  value =  %percentram% (%usedram% MB) R.A.M. Used
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = 0
+  actionid = 15636a09-92ba-44f7-ae14-f235f0c4cafa1653284015062
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = right
+  value = Copyright Mojang AB. Do not distribute! 
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = 0
+  actionid = d38f423a-d69d-4c77-b2ef-59d9fb2363361653285802185
+  action = addtext
+  y = -19
+  scale = 1.0
+  alignment = right
+  value = Mods compiled by Cooper Sullivan. 
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  actionid = 06e7cf7a-42de-409f-a432-b4ba2f28d0d01653285878507
+  action = addtext
+  y = -29
+  scale = 1.0
+  alignment = left
+  value =  %loadedmods%/%totalmods% mods active
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = halara\splash.txt
+  rotation = -10.0
+  x = 76
+  actionid = e537eae2-e916-4220-a4f6-5ea10d9598e41653286835223
+  action = addsplash
+  y = 80
+  scale = 1.0
+  refresh = true
+  bouncing = true
+}
+
